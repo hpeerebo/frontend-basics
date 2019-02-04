@@ -1,0 +1,14 @@
+{
+  "name": "frontend-basics",
+  "version": "1.0.0",
+  "description": "Molveno Lake Resort",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Hans Peereboom",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
