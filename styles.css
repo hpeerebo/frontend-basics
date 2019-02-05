@@ -11,6 +11,8 @@ body nav {
     display: inline-block;
     text-align: center;
     transition: 0.3s ease-out all; }
+  body nav a.hover {
+    color: black; }
 
 body footer {
   background-color: green;
