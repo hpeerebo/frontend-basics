@@ -1,16 +1,22 @@
 body {
+    .menu {
+        height: 40px;
+    }
+    
     nav {
         background-color: orange;
         padding: 10px;
         border-radius: 4px;
         list-style-type: none;
         }
+    
     a {
         width: 33%;
         display: inline-block;
         text-align: center;
         transition: 0.3s ease-out all;
     }
+    
     footer {
         background-color: green;
         padding: 10 px;
