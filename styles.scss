@@ -1,10 +1,16 @@
+$primary-color: orange;
+$secondary-color: green;
+$tertiary-color: #eeeeee;
+$primary-font-color: black;
+$border-radius: 4px;
+
 body {
     .menu {
         height: 40px;
     }
     
     nav {
-        background-color: orange;
+        background-color: $primary-color;
         padding: 10px;
         border-radius: 4px;
         list-style-type: none;
@@ -18,7 +24,7 @@ body {
     }
     
     footer {
-        background-color: green;
+        background-color: $secondary-color;
         padding: 10 px;
         border-radius: 4px;
     }
