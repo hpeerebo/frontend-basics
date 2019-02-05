@@ -4,7 +4,8 @@
   "description": "Molveno Lake Resort",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "sass": "node-sass styles.scss -wo ./"
   },
   "author": "Hans Peereboom",
   "license": "ISC",
