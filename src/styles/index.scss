@@ -1,3 +1,4 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
 $primary-color: orange;
 $secondary-color: green;
 $tertiary-color: #eeeeee;
@@ -7,6 +8,25 @@ $border-radius: 4px;
 body {
     .menu {
         height: 40px;
+    }
+
+    .dynamic-color {
+        background: transparent;
+        transition: 0.3s all ease-out;
+        transform: scale(1);
+        
+        &:hover {
+            background: green;
+            transform: scale(1.1);
+        }
+    }
+
+    .green-block {
+        background: green;
+        border-radius: 4px;
+        width: calc(50% - 20px);
+        float: left;
+        margin-right: 10px;
     }
 
     nav {
@@ -27,7 +47,11 @@ body {
     }
     
     // background-image: url("logo-512.png");
-    
+    main {
+        input:focus {
+            background-color: yellow;
+        }
+    }
     footer {
         background-color: $secondary-color;
         padding: 10 px;
